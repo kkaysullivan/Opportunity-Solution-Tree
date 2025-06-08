@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "opportunity-solution-tree",
   "version": "2.0.4",
   "description": "Creat Opportunity Solution Tree for your product discovery in FigJam and Figma.",
+=======
+  "name": "Opportunity Solution Tree",
+  "version": "0.1.0",
+  "description": "Use an Opportunity Solution Tree to visualize your product strategy and align your team.",
+>>>>>>> 0033175 (Initial commit: added custom card UI styles and behavior)
   "scripts": {
     "build": "esbuild widget-src/code.tsx --bundle --outfile=dist/code.js --target=es6",
     "tsc": "tsc --noEmit -p widget-src",
