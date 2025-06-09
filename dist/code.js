@@ -450,7 +450,7 @@
         inputFrameProps: {
           padding: {
             top: 16,
-            bottom: 48,
+            bottom: 32,
             left: 24,
             right: 24
           }
@@ -535,7 +535,7 @@
                   saveLink(l.key, e.characters, l.url);
                 },
                 value: l.text,
-                inputFrameProps: { padding: { top: 16, left: 24, right: 24, bottom: 32 } }
+                inputFrameProps: { padding: { top: 16, left: 24, right: 24, bottom: 24 } }
               }
             ),
             /* @__PURE__ */ figma.widget.h(
@@ -547,7 +547,7 @@
                   saveLink(l.key, l.text, e.characters);
                 },
                 value: l.url,
-                inputFrameProps: { padding: { top: 16, left: 24, right: 24, bottom: 32 } }
+                inputFrameProps: { padding: { top: 16, left: 24, right: 24, bottom: 24 } }
               }
             )
           ), /* @__PURE__ */ figma.widget.h(

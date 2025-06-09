@@ -114,7 +114,7 @@ function Note({ cardType } : { cardType:CardType}) {
       inputFrameProps={{
          padding: {
           top: 16,
-          bottom: 48,
+          bottom: 32,
           left: 24, 
           right: 24,
         },
@@ -217,14 +217,14 @@ function Links({ cardType }: { cardType: CardType }) {
                     width="fill-parent"
                     onTextEditEnd={(e) => { saveLink(l.key, e.characters, l.url) }}
                     value={l.text}
-                    inputFrameProps={{ padding: { top: 16, left: 24, right: 24, bottom: 32 } }}
+                    inputFrameProps={{ padding: { top: 16, left: 24, right: 24, bottom: 24 } }}
                   />
                   <Input
                     placeholder='https://'
                     width="fill-parent"
                     onTextEditEnd={(e) => { saveLink(l.key, l.text, e.characters) }}
                     value={l.url}
-                    inputFrameProps={{ padding: { top: 16, left: 24, right: 24, bottom: 32 } }}
+                    inputFrameProps={{ padding: { top: 16, left: 24, right: 24, bottom: 24 } }}
                   />
                 </AutoLayout>
                 <SVG src={`
